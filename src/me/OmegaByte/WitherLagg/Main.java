@@ -11,7 +11,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + getDescription().getName() + " v" + getDescription().getVersion() + " has been enabled.");
-        Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "Made by OmegaByte, and PerryPlaysMC");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "Made by OmegaByte, PerryPlaysMC, and EvsDev");
         (new BukkitRunnable() {
             public void run() {
             	ConsoleCommandSender consoleSender = Bukkit.getConsoleSender();
@@ -25,7 +25,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onDisable() {
         Bukkit.getConsoleSender().sendMessage(ChatColor.RED + getDescription().getName() + " v" + getDescription().getVersion() + " has been disabled.");
-        Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "Made by OmegaByte, and PerryPlaysMC");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "Made by OmegaByte, PerryPlaysMC, and EvsDev");
     }
 
 }
