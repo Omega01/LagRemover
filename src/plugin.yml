@@ -1,4 +1,5 @@
-name: WitherLagg
-main: me.OmegaByte.WitherLagg.Main
+name: LagRemover
+author: Omega01
+main: me.Omega01.LagRemover.Main
 version: 1.0
-author: OmegaByte
+description: Removes certain entities every certain amount of ticks.
